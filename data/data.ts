@@ -69,7 +69,7 @@ export const coursesData = [
 
 export const articleData = [
   {
-    id: 1,
+    id: 7,
     userImage: "/images/u1.jpg",
     username: "John Doe",
     reaction: 45,
@@ -77,7 +77,7 @@ export const articleData = [
     title: "Understanding JavaScript",
   },
   {
-    id: 2,
+    id: 8,
     userImage: "/images/u2.jpg",
     username: "Jane Smith",
     reaction: 78,
@@ -85,7 +85,7 @@ export const articleData = [
     title: "A Guide to Node.js Event Loop",
   },
   {
-    id: 3,
+    id: 9,
     userImage: "/images/u3.jpg",
     username: "Alex Johnson",
     reaction: 62,
