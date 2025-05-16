@@ -5,6 +5,7 @@ import Course from "./Course/Course";
 import Feature from "./Feature/Feature";
 import Review from "./Review/Review";
 
+
 const Home = () => {
   return (
     <div>
@@ -13,6 +14,7 @@ const Home = () => {
       <Course />
       <Feature />
       <Review />
+      
     </div>
   );
 };
