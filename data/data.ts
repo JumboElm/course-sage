@@ -1,6 +1,6 @@
 export const coursesData = [
   {
-    id: 1,
+    id: "web-dev",
     image: "/images/c1.jpg",
     title: "Introduction to JavaScript",
     price: 49.99,
@@ -11,7 +11,7 @@ export const coursesData = [
     category: "Programming",
   },
   {
-    id: 2,
+    id: "python",
     image: "/images/c2.jpg",
     title: "Advanced Python Programming",
     price: 69.99,
@@ -22,7 +22,7 @@ export const coursesData = [
     category: "Programming",
   },
   {
-    id: 3,
+    id: "ui-ux",
     image: "/images/c3.jpg",
     title: "UI/UX Design Fundamentals",
     price: 59.99,
@@ -33,7 +33,7 @@ export const coursesData = [
     category: "Design",
   },
   {
-    id: 4,
+    id: "data-science",
     image: "/images/c4.jpg",
     title: "Ethical Hacking Basics",
     price: 55.99,
@@ -44,7 +44,7 @@ export const coursesData = [
     category: "Hacking",
   },
   {
-    id: 5,
+    id: "marketing",
     image: "/images/c5.jpg",
     title: "Full Stack Web Development",
     price: 79.99,
@@ -55,7 +55,7 @@ export const coursesData = [
     category: "Programming",
   },
   {
-    id: 6,
+    id: "photography",
     image: "/images/c6.jpg",
     title: "Software Testing and QA",
     price: 45.99,
@@ -93,3 +93,81 @@ export const articleData = [
     title: "Introduction to React Hooks",
   },
 ];
+
+const courses = [
+  {
+    id: "web-dev",
+    title: "Modern Web Development",
+    author: "Alice Johnson",
+    image: "/images/web-dev.jpg",
+    price: 99,
+    reviewNumber: 120,
+    lessons: 25,
+    students: 1024,
+    description:
+      "Learn how to build fast and responsive websites using modern tools like React, Tailwind CSS, and Next.js.",
+  },
+
+  {
+    id: "python",
+    title: "Python for Beginners",
+    author: "Linda Scott",
+    image: "/images/python.jpg",
+    price: 49,
+    reviewNumber: 200,
+    lessons: 30,
+    students: 3000,
+    description:
+      "Start your programming journey with Python, one of the most versatile and in-demand programming languages.",
+  },
+  {
+    id: "ui-ux",
+    title: "UI/UX Design Fundamentals",
+    author: "Mark Thompson",
+    image: "/images/ui-ux.jpg",
+    price: 79,
+    reviewNumber: 85,
+    lessons: 18,
+    students: 856,
+    description:
+      "Master the basics of UI and UX design to create user-centered interfaces with Figma and Adobe XD.",
+  },
+  {
+    id: "data-science",
+    title: "Data Science Bootcamp",
+    author: "Carlos Ramirez",
+    image: "/images/data-science.jpg",
+    price: 129,
+    reviewNumber: 150,
+    lessons: 40,
+    students: 1200,
+    description:
+      "Dive into data analysis, visualization, and machine learning with real-world projects and Python libraries.",
+  },
+  {
+    id: "marketing",
+    title: "Digital Marketing Essentials",
+    author: "Sophia Nguyen",
+    image: "/images/marketing.jpg",
+    price: 59,
+    reviewNumber: 95,
+    lessons: 20,
+    students: 950,
+    description:
+      "Learn how to run effective campaigns, master SEO, and analyze metrics to boost your brand’s visibility.",
+  },
+  {
+    id: "photography",
+    title: "Photography Masterclass",
+    author: "James Lee",
+    image: "/images/photography.jpg",
+    price: 89,
+    reviewNumber: 130,
+    lessons: 22,
+    students: 1100,
+    description:
+      "Improve your photography skills from beginner to pro with practical lessons on lighting, angles, and editing.",
+  },
+];
+
+export default courses;

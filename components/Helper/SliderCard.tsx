@@ -28,7 +28,7 @@ const SliderCard = ({ image, name, role }: Props) => {
           <FaStar className="xl:w-7 xl:h-7 md:w-5 md:h-5 w-4 h-4 text-yellow-500" />
           <FaStar className="xl:w-7 xl:h-7 md:w-5 md:h-5 w-4 h-4 text-yellow-500" />
         </div>
-        <p className="mt-6 text-amber-600 w-[95%] md:w-[80%] text-xs md:text-sm lg:text-base font-semibold text-opacity-65 ">
+        <p className="mt-6 text-amber-300 w-[95%] md:w-[80%] text-xs md:text-sm lg:text-base font-semibold text-opacity-65 ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores alias
           repellendus veritatis explicabo. Omnis, ratione laborum corporis
           facilis minima, aliquam saepe accusantium et ea itaque, dolores

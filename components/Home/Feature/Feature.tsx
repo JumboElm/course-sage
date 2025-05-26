@@ -36,20 +36,20 @@ const Feature = () => {
           </h1>
 
           <div className="mt-8 mb-6">
-            <h1 className="text-lg md:text-2xl text-amber-300 text-opacity-70 font-semibold">
+            <h1 className="text-lg md:text-2xl text-amber-400 text-opacity-70 font-semibold">
               Master the skills that matter to you
             </h1>
-            <p className="text-sm md:text-base text-amber-500 text-opacity-70 mt-4">
+            <p className="text-sm md:text-base text-amber-300 text-opacity-70 mt-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium maxime fuga temporibus! Minima dolore cum accusantium
               dolor voluptas perferendis labore?
             </p>
           </div>
           <div className="mt-8 mb-6">
-            <h1 className="text-lg md:text-2xl text-amber-300 text-opacity-70 font-semibold">
+            <h1 className="text-lg md:text-2xl text-amber-400 text-opacity-70 font-semibold">
               Increase your learning skills
             </h1>
-            <p className="text-sm md:text-base text-amber-500 text-opacity-70 mt-4">
+            <p className="text-sm md:text-base text-amber-300 text-opacity-70 mt-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium maxime fuga temporibus! Minima dolore cum accusantium
               dolor voluptas perferendis labore?
