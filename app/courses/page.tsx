@@ -1,7 +1,12 @@
-import Course from "@/components/Home/Course/Course";
+import { coursesData } from "@/data/data";
+import CourseCard from "@/components/Home/Course/CourseCard";
 
-const page = () => {
-  return <Course />;
-};
-
-export default page;
+export default function CoursesPage() {
+  return (
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
+      {coursesData.map((course) => (
+        <CourseCard key={course.id} course={course} />
+      ))}
+    </div>
+  );
+}
