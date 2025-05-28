@@ -3,7 +3,7 @@ import CourseCard from "@/components/Home/Course/CourseCard";
 
 export default function CoursesPage() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4 bg-green-500">
       {coursesData.map((course) => (
         <CourseCard key={course.id} course={course} />
       ))}
