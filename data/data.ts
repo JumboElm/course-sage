@@ -2,7 +2,7 @@ import { Course } from "./type";
 
 export const coursesData: Course[] = [
   {
-    id: "/coursedetail",
+    id: "/1",
     image: "/images/c1.jpg",
     title: "Introduction to JavaScript",
     price: 49.99,

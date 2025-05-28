@@ -1,7 +1,13 @@
 import { coursesData } from "@/data/data";
 import { notFound } from "next/navigation";
 
-export default function CourseDetail({ params }: { params: { id: string } }) {
+type Params = {
+  params: {
+    id: string;
+  };
+};
+
+export default function CourseDetail({ params }: Params) {
   const course = coursesData.find((c) => c.id === params.id);
   if (!course) return notFound();
 
