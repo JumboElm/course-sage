@@ -2,7 +2,7 @@ import { Course } from "./type";
 
 export const coursesData: Course[] = [
   {
-    id: "/1",
+    id: "1",
     image: "/images/c1.jpg",
     title: "Introduction to JavaScript",
     price: 49.99,
@@ -21,7 +21,7 @@ export const coursesData: Course[] = [
     },
   },
   {
-    id: "/2",
+    id: "2",
     image: "/images/c2.jpg",
     title: "Advanced Python Programming",
     price: 69.99,
@@ -40,7 +40,7 @@ export const coursesData: Course[] = [
     },
   },
   {
-    id: "/3",
+    id: "3",
     image: "/images/c3.jpg",
     title: "UI/UX Design Fundamentals",
     price: 59.99,
@@ -59,7 +59,7 @@ export const coursesData: Course[] = [
     },
   },
   {
-    id: "/4",
+    id: "4",
     image: "/images/c4.jpg",
     title: "Ethical Hacking Basics",
     price: 55.99,
@@ -77,7 +77,7 @@ export const coursesData: Course[] = [
     },
   },
   {
-    id: "/5",
+    id: "5",
     image: "/images/c5.jpg",
     title: "Full Stack Web Development",
     price: 79.99,
@@ -95,7 +95,7 @@ export const coursesData: Course[] = [
     },
   },
   {
-    id: "/6",
+    id: "6",
     image: "/images/c6.jpg",
     title: "Software Testing and QA",
     price: 45.99,

@@ -17,7 +17,7 @@ export default function CourseCard({ course }: Props) {
 
   return (
     <div
-      onClick={() => router.push(`/app/corses/[id]/page`)}
+      onClick={() => router.push(`/courses/${course.id}`)}
       className="bg-green-400 rounded-lg overflow-hidden  cursor-pointer hover:scale-[1.02] transition-transform"
     >
       <Tilt>
