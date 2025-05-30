@@ -25,11 +25,16 @@ const Nav = () => {
               </p>
             </Link>
           ))}
+          <Link href="/cart">
+            <button className="text-white hover:underline relative nav_link cursor-pointer">
+              Cart
+            </button>
+          </Link>
         </div>
 
         <div className="flex items-center space-x-4">
           <a
-            href="https://accounts.google.com/signup"
+            href="/register"
             target="_blank"
             rel="noopener noreferrer"
             className="md:px-10 md:py-2 px-8 py-1.5 text-white font-semibold text-base bg-amber-400 hover:bg-amber-700 transition-all duration-200 rounded-lg"
